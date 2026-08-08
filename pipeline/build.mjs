@@ -24,6 +24,11 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 // the HMM bridges by routing instead of interpolating observations, which would
 // fabricate straight-line detours through side streets.
 const GAP_MIN = 300;
+// m — a pole closer than this to the matched axis is inside the track corridor:
+// its coordinate carries no usable side signal and the half-disc falls back to
+// the right-hand rule (see the stop pass). Named after the case that set it:
+// both direction poles of Dąb Silesia City Center share one point.
+const SIDE_CORRIDOR = 6;
 
 const TROLLEY_GREEN = '#149a3f';
 const TROLLEY_DARK = '#0a5121';
@@ -596,6 +601,7 @@ async function processMode(cfg) {
     // side of the roadway (side = sign of the cross product between the street
     // direction and the snap→pole vector; the GTFS pole stands beside the road)
     let angle = 0;
+    let sideInfo = null;
     if (!isMetroStop && best && bestRun && bestRun.matchedXY[best.segIdx + 1]) {
       const A = bestRun.matchedXY[best.segIdx], B = bestRun.matchedXY[best.segIdx + 1];
       const dx = B[0] - A[0], dy = B[1] - A[1];
@@ -603,26 +609,15 @@ async function processMode(cfg) {
       const cross = dx * (sy - best.y) - dy * (sx - best.x);
       // GTFS pole coordinates are frequently sloppy on double-track streets
       // (both direction poles of Dąb Silesia City Center share one point, so
-      // both discs flipped the same way) — when the pole sits ON the axis its
-      // coordinate carries no side signal; use the right-hand rule instead:
-      // doors open to the RIGHT of the direction of travel. Offset poles keep
-      // the data's side.
-      // The cut-off is the uncertainty of the AXIS (OSM centerline vs. GPS),
-      // not the width of the street: anything beyond it is a real kerb
-      // position. The sibling cities inherited 6 m, tuned on wide urban
-      // avenues; on this county network — rural roads, poles at the verge —
-      // the offsets form one clean hump at 3–6 m (median 4.8 m), so 6 m
-      // discarded a good side signal for 1265 of 1755 poles and left 15% of
-      // the two-pole stops facing the same way (user report, Grodzisk Maz.
-      // Wileńska: poles 4.8 m east and 3.0 m west of one centerline, both
-      // drawn west). At 1.5 m only the 57 poles digitised onto the centerline
-      // itself fall back, and same-facing pairs drop to 1%. Measured on the
-      // 596 two-pole stops here, anything in 1–2 m scores the same (6–8 bad
-      // pairs) — the value is not delicate, the old 6 m was simply too coarse.
-      const AXIS_NOISE = 1.5;
+      // both discs flipped the same way) — when the pole sits inside the
+      // track corridor (<6 m off the axis) the coordinate carries no side
+      // signal; use the right-hand rule instead: doors open to the RIGHT of
+      // the direction of travel. Clearly offset poles keep the data's side.
       const offM = Math.abs(cross) / Math.hypot(dx, dy);
-      const side = offM < AXIS_NOISE ? -1 : Math.sign(cross);
+      const side = offM < SIDE_CORRIDOR ? -1 : Math.sign(cross);
       angle = Math.round((phi + (side < 0 ? 180 : 0)) * 10) / 10;
+      // kept for the tie-break pass below, stripped before the file is written
+      sideInfo = { phi, dataSide: Math.sign(cross), offM };
     }
     const arr = [...e.lines].sort(numSort);
     // metroline membership for the independent metrolines toggle
@@ -650,6 +645,7 @@ async function processMode(cfg) {
         color: colorOf(arr),
         colorDark: colorDarkOf(arr),
         angle,
+        ...(sideInfo ? { sideInfo } : {}),
         // metro stations render as full discs (no roadside pole side to show)
         ...(isMetroStop ? { metro: 1 } : {}),
         ...(mstop ? { mstop } : {}),
@@ -658,6 +654,53 @@ async function processMode(cfg) {
     });
   }
   if (stopsFar) log(`WARNING: ${stopsFar} stops dropped — farther than 200 m from every line calling there: ${farNames.slice(0, 8).join(', ')}${stopsFar > 8 ? ', …' : ''}`);
+
+  // Tie-break for the right-hand rule, which has one blind spot: it needs the
+  // direction of travel, and `bestRun` is picked by distance. Where both
+  // directions of a street ride ONE OSM centerline — or one run passes the
+  // same street twice, as a loop line does — the two poles of a stop can snap
+  // to the same travelling direction and both discs then bulge the same way
+  // (user report, Grodzisk Maz. Wileńska: line 34 serves both poles inside a
+  // single there-and-back trip).
+  // Only pairs that visibly failed are touched, and only when the pole
+  // coordinates disagree about the side and both carry more offset than the
+  // axis is uncertain — so a pair the rule got right is never second-guessed,
+  // and a feed with poles digitised onto the centerline never gets to vote.
+  // Measured here: 90 of 596 two-pole stops faced the same way, 74 of them had
+  // an offset signal to split on; trusting that signal wholesale instead (a
+  // lower SIDE_CORRIDOR) fixed Grodzisk but drove Rybnik from 96 bad pairs to
+  // 154 — its poles are too sloppy to overrule a working rule.
+  const AXIS_NOISE = 1.5; // m — below this a pole coordinate says nothing
+  let splitFixed = 0;
+  {
+    const groups = new Map();
+    for (const f of stopFeatures) {
+      if (!f.properties.sideInfo) continue;
+      let g = groups.get(f.properties.name);
+      if (!g) groups.set(f.properties.name, (g = []));
+      g.push(f);
+    }
+    for (const g of groups.values()) {
+      if (g.length !== 2) continue; // interchanges are not a two-sided street
+      const [a, b] = g;
+      const [alon, alat] = a.geometry.coordinates;
+      const [blon, blat] = b.geometry.coordinates;
+      const [ax, ay] = proj.toXY(alat, alon), [bx, by] = proj.toXY(blat, blon);
+      if (Math.hypot(ax - bx, ay - by) > 120) continue; // same name, two places
+      const apart = Math.abs(((a.properties.angle - b.properties.angle + 180) % 360) - 180);
+      if (apart >= 60) continue; // the discs already point apart: nothing to fix
+      const sa = a.properties.sideInfo, sb = b.properties.sideInfo;
+      if (sa.offM < AXIS_NOISE || sb.offM < AXIS_NOISE) continue;
+      if (sa.dataSide === 0 || sa.dataSide === sb.dataSide) continue; // data agrees they share a side
+      for (const f of g) {
+        const s = f.properties.sideInfo;
+        f.properties.angle = Math.round((s.phi + (s.dataSide < 0 ? 180 : 0)) * 10) / 10;
+      }
+      splitFixed++;
+    }
+  }
+  for (const f of stopFeatures) delete f.properties.sideInfo;
+  if (splitFixed) log(`Stop sides: ${splitFixed} two-pole stops split by pole coordinates (right-hand rule had both discs on one side)`);
 
   // One label per pole group: clustering by name within a 220 m radius.
   const byName = new Map();
