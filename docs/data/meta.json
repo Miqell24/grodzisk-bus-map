@@ -1,0 +1,3426 @@
+{
+  "generatedAt": "2026-08-08T14:32:25.974Z",
+  "bbox": [
+    20.235868,
+    51.925045,
+    21.000339,
+    52.349348
+  ],
+  "badgeBands": [
+    [
+      13,
+      13.6
+    ],
+    [
+      13.6,
+      14.4
+    ],
+    [
+      14.4,
+      15.5
+    ],
+    [
+      15.5,
+      16.8
+    ],
+    [
+      16.8,
+      22
+    ]
+  ],
+  "modes": [
+    {
+      "mode": "bus",
+      "label": "buses",
+      "color": "#0059a9"
+    },
+    {
+      "mode": "tram",
+      "label": "WKD",
+      "color": "#d6212b"
+    }
+  ],
+  "lines": [
+    {
+      "line": "0",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 29,
+          "lengthKm": 12.99,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.760747439571735,
+            "roundaboutSegs": 54,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Traugutta Dw. PKP",
+          "headsign": "Grodzisk Maz. Traugutta Dw. PKP",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 30,
+          "lengthKm": 13.91,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.001642053319023,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "10",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Bieniewo-Parcela",
+          "headsign": "Bieniewo-Parcela",
+          "variants": 1,
+          "tripCount": 29,
+          "stops": 48,
+          "lengthKm": 29.86,
+          "stats": {
+            "observations": 48,
+            "matched": 48,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.1934366910374266,
+            "roundaboutSegs": 56,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Bieniewo-Wieś",
+          "headsign": "Bieniewo-Wieś",
+          "variants": 1,
+          "tripCount": 9,
+          "stops": 50,
+          "lengthKm": 32.49,
+          "stats": {
+            "observations": 50,
+            "matched": 50,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.156723340500059,
+            "roundaboutSegs": 56,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "11",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Bramki DPS",
+          "headsign": "Bramki DPS",
+          "variants": 1,
+          "tripCount": 33,
+          "stops": 51,
+          "lengthKm": 34.9,
+          "stats": {
+            "observations": 51,
+            "matched": 51,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.80628839443938,
+            "roundaboutSegs": 40,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "12",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Błonie PKP",
+          "headsign": "Błonie PKP",
+          "variants": 1,
+          "tripCount": 37,
+          "stops": 40,
+          "lengthKm": 28.82,
+          "stats": {
+            "observations": 40,
+            "matched": 40,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.652033340895554,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "13",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Błonie Centrum Sportu",
+          "headsign": "Błonie Centrum Sportu",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 35,
+          "lengthKm": 19.95,
+          "stats": {
+            "observations": 35,
+            "matched": 35,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.529347493668918,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Szpital",
+          "headsign": "Grodzisk Maz. Szpital",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 32,
+          "lengthKm": 19.15,
+          "stats": {
+            "observations": 32,
+            "matched": 32,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.89824687182745,
+            "roundaboutSegs": 10,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "14",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Pass",
+          "headsign": "Pass",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 35,
+          "lengthKm": 29.96,
+          "stats": {
+            "observations": 35,
+            "matched": 35,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.901926822218143,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Warszawa Fort Wola",
+          "headsign": "Warszawa Fort Wola",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 35,
+          "lengthKm": 29.83,
+          "stats": {
+            "observations": 35,
+            "matched": 35,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.263216535031117,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "15",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów OSP",
+          "headsign": "Brwinów OSP",
+          "variants": 1,
+          "tripCount": 19,
+          "stops": 94,
+          "lengthKm": 44.89,
+          "stats": {
+            "observations": 94,
+            "matched": 94,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.4944626230292535,
+            "roundaboutSegs": 102,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Okulickiego Szkoła Muzyczna",
+          "headsign": "Grodzisk Maz. Okulickiego Szkoła Muzyczna",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 11,
+          "lengthKm": 4.22,
+          "stats": {
+            "observations": 11,
+            "matched": 11,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.620540076897578,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "16",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Szpital",
+          "headsign": "Grodzisk Maz. Szpital",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 29,
+          "lengthKm": 11.96,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.840437437796225,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Milanówek Cmentarz",
+          "headsign": "Milanówek Cmentarz",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 31,
+          "lengthKm": 12.29,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.428351130864888,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "17",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Chełmońskiego PKS",
+          "headsign": "Grodzisk Maz. Chełmońskiego PKS",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 17,
+          "lengthKm": 12.64,
+          "stats": {
+            "observations": 17,
+            "matched": 17,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.518145824774477,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Szpital",
+          "headsign": "Grodzisk Maz. Szpital",
+          "variants": 1,
+          "tripCount": 152,
+          "stops": 45,
+          "lengthKm": 24.8,
+          "stats": {
+            "observations": 45,
+            "matched": 45,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.531113511529181,
+            "roundaboutSegs": 97,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Żyrardowska",
+          "headsign": "Grodzisk Maz. Żyrardowska",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 22,
+          "lengthKm": 9.24,
+          "stats": {
+            "observations": 22,
+            "matched": 22,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.299568529061467,
+            "roundaboutSegs": 65,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Otrębusy WKD",
+          "headsign": "Otrębusy WKD",
+          "variants": 1,
+          "tripCount": 162,
+          "stops": 39,
+          "lengthKm": 18.51,
+          "stats": {
+            "observations": 39,
+            "matched": 39,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.994044317354586,
+            "roundaboutSegs": 31,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "P+R Nadarzyn",
+          "headsign": "P+R Nadarzyn",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 44,
+          "lengthKm": 24.11,
+          "stats": {
+            "observations": 44,
+            "matched": 44,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.487568072273189,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "18",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 66,
+          "stops": 53,
+          "lengthKm": 32,
+          "stats": {
+            "observations": 53,
+            "matched": 53,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.040118403282258,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "19",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Bieniewice",
+          "headsign": "Bieniewice",
+          "variants": 1,
+          "tripCount": 5,
+          "stops": 8,
+          "lengthKm": 12.69,
+          "stats": {
+            "observations": 8,
+            "matched": 8,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.867836912306471,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Bieniewice Szkoła",
+          "headsign": "Bieniewice Szkoła",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 32,
+          "lengthKm": 16.57,
+          "stats": {
+            "observations": 32,
+            "matched": 32,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9268000408968136,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Błonie Szkoła Nr 2",
+          "headsign": "Błonie Szkoła Nr 2",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 34,
+          "lengthKm": 16.9,
+          "stats": {
+            "observations": 34,
+            "matched": 34,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.115241282440734,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "20",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Szpital",
+          "headsign": "Grodzisk Maz. Szpital",
+          "variants": 1,
+          "tripCount": 29,
+          "stops": 32,
+          "lengthKm": 30.66,
+          "stats": {
+            "observations": 32,
+            "matched": 32,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.819604024315459,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Kaski",
+          "headsign": "Kaski",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 27,
+          "lengthKm": 23.59,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.16384334860604,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Nowy Teresin",
+          "headsign": "Nowy Teresin",
+          "variants": 1,
+          "tripCount": 17,
+          "stops": 33,
+          "lengthKm": 30.92,
+          "stats": {
+            "observations": 33,
+            "matched": 33,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.406487527838389,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "21",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 24,
+          "lengthKm": 12.28,
+          "stats": {
+            "observations": 24,
+            "matched": 24,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.724375165571352,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Władków Pętla",
+          "headsign": "Władków Pętla",
+          "variants": 1,
+          "tripCount": 42,
+          "stops": 24,
+          "lengthKm": 12.21,
+          "stats": {
+            "observations": 24,
+            "matched": 24,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.226036359167401,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "22",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 33,
+          "stops": 17,
+          "lengthKm": 8.66,
+          "stats": {
+            "observations": 17,
+            "matched": 17,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.2230592464007195,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Makówka Lukrecji",
+          "headsign": "Makówka Lukrecji",
+          "variants": 1,
+          "tripCount": 33,
+          "stops": 15,
+          "lengthKm": 8.54,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.434894384529348,
+            "roundaboutSegs": 16,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "23",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów OSP",
+          "headsign": "Brwinów OSP",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 61,
+          "lengthKm": 35.16,
+          "stats": {
+            "observations": 61,
+            "matched": 61,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.573547679544753,
+            "roundaboutSegs": 56,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 59,
+          "lengthKm": 35.25,
+          "stats": {
+            "observations": 59,
+            "matched": 59,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.809694545731368,
+            "roundaboutSegs": 62,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "24",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Baranów Szkoła",
+          "headsign": "Baranów Szkoła",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 31,
+          "lengthKm": 17.24,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.962126484328391,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 30,
+          "lengthKm": 16.81,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8260705877167016,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Izdebno Kościelne Pętla",
+          "headsign": "Izdebno Kościelne Pętla",
+          "variants": 1,
+          "tripCount": 36,
+          "stops": 25,
+          "lengthKm": 13.22,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.965249222778944,
+            "roundaboutSegs": 30,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "25",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 75,
+          "lengthKm": 52.01,
+          "stats": {
+            "observations": 75,
+            "matched": 75,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.56607216350494,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Izdebno Kościelne Szkoła",
+          "headsign": "Izdebno Kościelne Szkoła",
+          "variants": 1,
+          "tripCount": 32,
+          "stops": 30,
+          "lengthKm": 18.99,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.549604269351796,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "26",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Szpital",
+          "headsign": "Grodzisk Maz. Szpital",
+          "variants": 1,
+          "tripCount": 62,
+          "stops": 42,
+          "lengthKm": 29.43,
+          "stats": {
+            "observations": 42,
+            "matched": 42,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.9553685531468625,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Kaski",
+          "headsign": "Kaski",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 45,
+          "lengthKm": 30.11,
+          "stats": {
+            "observations": 45,
+            "matched": 45,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.6365714666594435,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Kłudno Nowe Pętla",
+          "headsign": "Kłudno Nowe Pętla",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 35,
+          "lengthKm": 20.05,
+          "stats": {
+            "observations": 35,
+            "matched": 35,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.685963264729671,
+            "roundaboutSegs": 29,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "27",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Rokiciańska",
+          "headsign": "Grodzisk Maz. Rokiciańska",
+          "variants": 1,
+          "tripCount": 37,
+          "stops": 37,
+          "lengthKm": 18.91,
+          "stats": {
+            "observations": 37,
+            "matched": 37,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.71133745886143,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Milanówek Basen",
+          "headsign": "Milanówek Basen",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 35,
+          "lengthKm": 17.69,
+          "stats": {
+            "observations": 35,
+            "matched": 35,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.490880058288166,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "28",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 44,
+          "stops": 39,
+          "lengthKm": 20.54,
+          "stats": {
+            "observations": 39,
+            "matched": 39,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.962178078033809,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "29",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Szpital",
+          "headsign": "Grodzisk Maz. Szpital",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 40,
+          "lengthKm": 22.24,
+          "stats": {
+            "observations": 40,
+            "matched": 40,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.042699040479672,
+            "roundaboutSegs": 104,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "P+R Nadarzyn",
+          "headsign": "P+R Nadarzyn",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 47,
+          "lengthKm": 23.28,
+          "stats": {
+            "observations": 47,
+            "matched": 47,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.850413247177076,
+            "roundaboutSegs": 70,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "30",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 64,
+          "stops": 83,
+          "lengthKm": 49.26,
+          "stats": {
+            "observations": 83,
+            "matched": 83,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.843427863632327,
+            "roundaboutSegs": 61,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Radonie Pętla",
+          "headsign": "Radonie Pętla",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 15,
+          "lengthKm": 5.76,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.36724543983811,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Skuły Szkoła",
+          "headsign": "Skuły Szkoła",
+          "variants": 1,
+          "tripCount": 29,
+          "stops": 38,
+          "lengthKm": 23.85,
+          "stats": {
+            "observations": 38,
+            "matched": 38,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.336527438422549,
+            "roundaboutSegs": 43,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Żabia Wola Urząd Gminy",
+          "headsign": "Żabia Wola Urząd Gminy",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 25,
+          "lengthKm": 12.22,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.390176595093135,
+            "roundaboutSegs": 6,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "31",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 67,
+          "stops": 53,
+          "lengthKm": 34.89,
+          "stats": {
+            "observations": 53,
+            "matched": 53,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.823528018533391,
+            "roundaboutSegs": 27,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Lutkówka Szkoła",
+          "headsign": "Lutkówka Szkoła",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 48,
+          "lengthKm": 31.9,
+          "stats": {
+            "observations": 48,
+            "matched": 48,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.53466906748707,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Milanówek Zaciszna",
+          "headsign": "Milanówek Zaciszna",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 63,
+          "lengthKm": 39.56,
+          "stats": {
+            "observations": 63,
+            "matched": 63,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.654166713571671,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Petrykozy Trakt Królewski",
+          "headsign": "Petrykozy Trakt Królewski",
+          "variants": 1,
+          "tripCount": 67,
+          "stops": 62,
+          "lengthKm": 39.71,
+          "stats": {
+            "observations": 62,
+            "matched": 62,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.5963718644858504,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "32",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 43,
+          "stops": 51,
+          "lengthKm": 29.18,
+          "stats": {
+            "observations": 51,
+            "matched": 51,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 263,
+            "meanError": 5.423687411202503,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Siestrzeń Rozalińska",
+          "headsign": "Siestrzeń Rozalińska",
+          "variants": 1,
+          "tripCount": 1,
+          "stops": 18,
+          "lengthKm": 12.09,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.219506840452066,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Żabia Wola Urząd Gminy",
+          "headsign": "Żabia Wola Urząd Gminy",
+          "variants": 1,
+          "tripCount": 29,
+          "stops": 53,
+          "lengthKm": 29.43,
+          "stats": {
+            "observations": 53,
+            "matched": 53,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 338,
+            "meanError": 4.917548686191764,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "33",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 40,
+          "lengthKm": 22.55,
+          "stats": {
+            "observations": 40,
+            "matched": 40,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 263,
+            "meanError": 5.631746061382055,
+            "roundaboutSegs": 32,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ojrzanów Przyleśna",
+          "headsign": "Ojrzanów Przyleśna",
+          "variants": 1,
+          "tripCount": 28,
+          "stops": 42,
+          "lengthKm": 22.66,
+          "stats": {
+            "observations": 42,
+            "matched": 42,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 338,
+            "meanError": 5.039661259598786,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "34",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 32,
+          "lengthKm": 17.6,
+          "stats": {
+            "observations": 32,
+            "matched": 32,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.0067486788813875,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "35",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów OSP",
+          "headsign": "Brwinów OSP",
+          "variants": 1,
+          "tripCount": 40,
+          "stops": 18,
+          "lengthKm": 10.18,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.5699926652345075,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Książenice Szkoła",
+          "headsign": "Książenice Szkoła",
+          "variants": 1,
+          "tripCount": 40,
+          "stops": 15,
+          "lengthKm": 9.61,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.638868930185613,
+            "roundaboutSegs": 23,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "40",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Błonie PKP",
+          "headsign": "Błonie PKP",
+          "variants": 1,
+          "tripCount": 29,
+          "stops": 31,
+          "lengthKm": 26.34,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.515135694874442,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "41",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Leszno",
+          "headsign": "Leszno",
+          "variants": 1,
+          "tripCount": 17,
+          "stops": 12,
+          "lengthKm": 11.64,
+          "stats": {
+            "observations": 12,
+            "matched": 12,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.884527352302914,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Podkampinos Rondo",
+          "headsign": "Podkampinos Rondo",
+          "variants": 1,
+          "tripCount": 17,
+          "stops": 22,
+          "lengthKm": 18.33,
+          "stats": {
+            "observations": 22,
+            "matched": 22,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.92272198757647,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "42",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Błonie PKP",
+          "headsign": "Błonie PKP",
+          "variants": 1,
+          "tripCount": 31,
+          "stops": 34,
+          "lengthKm": 37.94,
+          "stats": {
+            "observations": 34,
+            "matched": 34,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.888379802282478,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Sochaczew Sienkiewicza (przy PKP)",
+          "headsign": "Sochaczew Sienkiewicza (przy PKP)",
+          "variants": 1,
+          "tripCount": 31,
+          "stops": 33,
+          "lengthKm": 38.12,
+          "stats": {
+            "observations": 33,
+            "matched": 33,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.31163660523346,
+            "roundaboutSegs": 46,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "43",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Błonie PKP",
+          "headsign": "Błonie PKP",
+          "variants": 1,
+          "tripCount": 26,
+          "stops": 26,
+          "lengthKm": 24.15,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.161977937881961,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Roztoka",
+          "headsign": "Roztoka",
+          "variants": 1,
+          "tripCount": 26,
+          "stops": 26,
+          "lengthKm": 24.3,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.909137751942004,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "44",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Leszno",
+          "headsign": "Leszno",
+          "variants": 1,
+          "tripCount": 19,
+          "stops": 21,
+          "lengthKm": 19.35,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.6983892347308425,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Nowy Teresin",
+          "headsign": "Nowy Teresin",
+          "variants": 1,
+          "tripCount": 19,
+          "stops": 19,
+          "lengthKm": 19.41,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.905275511565958,
+            "roundaboutSegs": 8,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "45",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów OSP",
+          "headsign": "Brwinów OSP",
+          "variants": 1,
+          "tripCount": 13,
+          "stops": 41,
+          "lengthKm": 19.42,
+          "stats": {
+            "observations": 41,
+            "matched": 41,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.26163829390002,
+            "roundaboutSegs": 50,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 13,
+          "stops": 41,
+          "lengthKm": 19.31,
+          "stats": {
+            "observations": 41,
+            "matched": 41,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.766461839995548,
+            "roundaboutSegs": 53,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "46",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Szpital",
+          "headsign": "Grodzisk Maz. Szpital",
+          "variants": 1,
+          "tripCount": 44,
+          "stops": 33,
+          "lengthKm": 14.1,
+          "stats": {
+            "observations": 33,
+            "matched": 33,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.89443694215248,
+            "roundaboutSegs": 65,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Milanówek Cmentarz",
+          "headsign": "Milanówek Cmentarz",
+          "variants": 1,
+          "tripCount": 44,
+          "stops": 36,
+          "lengthKm": 14.52,
+          "stats": {
+            "observations": 36,
+            "matched": 36,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.623665039637094,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "48",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów Rynek",
+          "headsign": "Brwinów Rynek",
+          "variants": 1,
+          "tripCount": 9,
+          "stops": 26,
+          "lengthKm": 18.04,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.322007121830723,
+            "roundaboutSegs": 28,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "PKP Pruszków",
+          "headsign": "PKP Pruszków",
+          "variants": 1,
+          "tripCount": 9,
+          "stops": 25,
+          "lengthKm": 17.92,
+          "stats": {
+            "observations": 25,
+            "matched": 25,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.157501350874953,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "49",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Płochocin PKP / Kolejowa",
+          "headsign": "Płochocin PKP / Kolejowa",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 32,
+          "lengthKm": 20.93,
+          "stats": {
+            "observations": 32,
+            "matched": 32,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.522095951122613,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Radzików Ihar",
+          "headsign": "Radzików Ihar",
+          "variants": 1,
+          "tripCount": 4,
+          "stops": 16,
+          "lengthKm": 15.02,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.415950041563708,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Stare Faszczyce",
+          "headsign": "Stare Faszczyce",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 30,
+          "lengthKm": 20.11,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.56954417016027,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Łaźniew Wiosenna",
+          "headsign": "Łaźniew Wiosenna",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 20,
+          "lengthKm": 18.6,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.394021255365196,
+            "roundaboutSegs": 18,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "50",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Szczęsne Cmentarz",
+          "headsign": "Szczęsne Cmentarz",
+          "variants": 1,
+          "tripCount": 13,
+          "stops": 22,
+          "lengthKm": 10.96,
+          "stats": {
+            "observations": 22,
+            "matched": 22,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.08573388552096,
+            "roundaboutSegs": 35,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "51",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Józefina Szkoła",
+          "headsign": "Józefina Szkoła",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 16,
+          "lengthKm": 13.76,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.0091653861303005,
+            "roundaboutSegs": 14,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Siestrzeń Rozalińska",
+          "headsign": "Siestrzeń Rozalińska",
+          "variants": 1,
+          "tripCount": 10,
+          "stops": 15,
+          "lengthKm": 13.88,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 338,
+            "meanError": 5.345972577991738,
+            "roundaboutSegs": 3,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "52",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Ojrzanów Szkoła",
+          "headsign": "Ojrzanów Szkoła",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 20,
+          "lengthKm": 13.95,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.3514911869896515,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Żabia Wola Urząd Gminy",
+          "headsign": "Żabia Wola Urząd Gminy",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 27,
+          "lengthKm": 19.63,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.64211699463553,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "55",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Żółwin Szkoła i Orlik",
+          "headsign": "Żółwin Szkoła i Orlik",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 37,
+          "lengthKm": 20.3,
+          "stats": {
+            "observations": 37,
+            "matched": 37,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.8504713593162583,
+            "roundaboutSegs": 2,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "58",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Adamowizna Szkoła",
+          "headsign": "Adamowizna Szkoła",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 14,
+          "lengthKm": 8.75,
+          "stats": {
+            "observations": 14,
+            "matched": 14,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.419907884711228,
+            "roundaboutSegs": 4,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Makówka Lukrecji",
+          "headsign": "Makówka Lukrecji",
+          "variants": 1,
+          "tripCount": 11,
+          "stops": 15,
+          "lengthKm": 8.81,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.361747672146135,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "60",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "P+R Nadarzyn",
+          "headsign": "P+R Nadarzyn",
+          "variants": 1,
+          "tripCount": 2,
+          "stops": 15,
+          "lengthKm": 11.24,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.088687658344466,
+            "roundaboutSegs": 131,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "PKP Pruszków",
+          "headsign": "PKP Pruszków",
+          "variants": 1,
+          "tripCount": 27,
+          "stops": 26,
+          "lengthKm": 22.02,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.064656405004542,
+            "roundaboutSegs": 94,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Walendów",
+          "headsign": "Walendów",
+          "variants": 1,
+          "tripCount": 25,
+          "stops": 26,
+          "lengthKm": 22.07,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.6644293854148255,
+            "roundaboutSegs": 190,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "61",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Janki Pl. Szwedzki",
+          "headsign": "Janki Pl. Szwedzki",
+          "variants": 1,
+          "tripCount": 31,
+          "stops": 18,
+          "lengthKm": 14.31,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.57595207978241,
+            "roundaboutSegs": 77,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Opacz WKD",
+          "headsign": "Opacz WKD",
+          "variants": 1,
+          "tripCount": 62,
+          "stops": 18,
+          "lengthKm": 14.42,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.317992461340553,
+            "roundaboutSegs": 73,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Reguły WKD",
+          "headsign": "Reguły WKD",
+          "variants": 1,
+          "tripCount": 31,
+          "stops": 13,
+          "lengthKm": 6.34,
+          "stats": {
+            "observations": 13,
+            "matched": 13,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.468859577383792,
+            "roundaboutSegs": 39,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "62",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Piastów Ogińskiego",
+          "headsign": "Piastów Ogińskiego",
+          "variants": 1,
+          "tripCount": 47,
+          "stops": 37,
+          "lengthKm": 25.69,
+          "stats": {
+            "observations": 37,
+            "matched": 37,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.364925128731187,
+            "roundaboutSegs": 77,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Warszawa P+R Al. Krakowska",
+          "headsign": "Warszawa P+R Al. Krakowska",
+          "variants": 1,
+          "tripCount": 47,
+          "stops": 36,
+          "lengthKm": 25.32,
+          "stats": {
+            "observations": 36,
+            "matched": 36,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.550313055702762,
+            "roundaboutSegs": 143,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "63",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 61,
+          "stops": 50,
+          "lengthKm": 43.1,
+          "stats": {
+            "observations": 50,
+            "matched": 50,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.779217295199858,
+            "roundaboutSegs": 84,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Józefina Szkoła",
+          "headsign": "Józefina Szkoła",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 24,
+          "lengthKm": 12.07,
+          "stats": {
+            "observations": 24,
+            "matched": 24,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.332632773663389,
+            "roundaboutSegs": 9,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Warszawa P+R Al. Krakowska",
+          "headsign": "Warszawa P+R Al. Krakowska",
+          "variants": 1,
+          "tripCount": 60,
+          "stops": 49,
+          "lengthKm": 44.24,
+          "stats": {
+            "observations": 49,
+            "matched": 49,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.491291635985593,
+            "roundaboutSegs": 61,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "64",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów Rynek",
+          "headsign": "Brwinów Rynek",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 29,
+          "lengthKm": 25.22,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.916375503979729,
+            "roundaboutSegs": 33,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "65",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów Zespół Szkół Ogólnokształcących",
+          "headsign": "Brwinów Zespół Szkół Ogólnokształcących",
+          "variants": 1,
+          "tripCount": 23,
+          "stops": 29,
+          "lengthKm": 22.35,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.336018934518732,
+            "roundaboutSegs": 175,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "PKP Pruszków",
+          "headsign": "PKP Pruszków",
+          "variants": 1,
+          "tripCount": 23,
+          "stops": 29,
+          "lengthKm": 22.93,
+          "stats": {
+            "observations": 29,
+            "matched": 29,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.879806412280186,
+            "roundaboutSegs": 85,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "66",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów Zespół Szkół Ogólnokształcących",
+          "headsign": "Brwinów Zespół Szkół Ogólnokształcących",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 12,
+          "lengthKm": 8.67,
+          "stats": {
+            "observations": 12,
+            "matched": 12,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.544889494390848,
+            "roundaboutSegs": 77,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "PKP Pruszków",
+          "headsign": "PKP Pruszków",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 15,
+          "lengthKm": 9.93,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.139423018185629,
+            "roundaboutSegs": 77,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "67",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów Rynek",
+          "headsign": "Brwinów Rynek",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 16,
+          "lengthKm": 10.9,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.575286394066926,
+            "roundaboutSegs": 11,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Błonie Piłsudskiego Przedszkole",
+          "headsign": "Błonie Piłsudskiego Przedszkole",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 19,
+          "lengthKm": 13.13,
+          "stats": {
+            "observations": 19,
+            "matched": 19,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.6848374787189675,
+            "roundaboutSegs": 20,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "68",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Moszna Park Logistyczny",
+          "headsign": "Moszna Park Logistyczny",
+          "variants": 1,
+          "tripCount": 18,
+          "stops": 30,
+          "lengthKm": 19.69,
+          "stats": {
+            "observations": 30,
+            "matched": 30,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.970101042022273,
+            "roundaboutSegs": 54,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "69",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów Rynek",
+          "headsign": "Brwinów Rynek",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 14,
+          "lengthKm": 13.71,
+          "stats": {
+            "observations": 14,
+            "matched": 14,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.76996946716206,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "77",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Błonie Piłsudskiego Przedszkole",
+          "headsign": "Błonie Piłsudskiego Przedszkole",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 28,
+          "lengthKm": 19.41,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.83157543730401,
+            "roundaboutSegs": 77,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Pruszków Akacjowa",
+          "headsign": "Pruszków Akacjowa",
+          "variants": 1,
+          "tripCount": 24,
+          "stops": 28,
+          "lengthKm": 19.39,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.916608990800479,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "78",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Moszna Park Logistyczny - Hale Zachodnie",
+          "headsign": "Moszna Park Logistyczny - Hale Zachodnie",
+          "variants": 1,
+          "tripCount": 15,
+          "stops": 17,
+          "lengthKm": 9.02,
+          "stats": {
+            "observations": 17,
+            "matched": 17,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.320635458708479,
+            "roundaboutSegs": 84,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "PKP Pruszków",
+          "headsign": "PKP Pruszków",
+          "variants": 1,
+          "tripCount": 15,
+          "stops": 15,
+          "lengthKm": 8.27,
+          "stats": {
+            "observations": 15,
+            "matched": 15,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.4487160826123056,
+            "roundaboutSegs": 97,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "80",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Pułapina Nowa Rondo",
+          "headsign": "Pułapina Nowa Rondo",
+          "variants": 1,
+          "tripCount": 9,
+          "stops": 22,
+          "lengthKm": 17.97,
+          "stats": {
+            "observations": 22,
+            "matched": 22,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.592646314522945,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Żyrardów PKP",
+          "headsign": "Żyrardów PKP",
+          "variants": 1,
+          "tripCount": 9,
+          "stops": 23,
+          "lengthKm": 17.97,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.159278575801185,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "82",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Dw. PKP",
+          "headsign": "Grodzisk Maz. Dw. PKP",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 31,
+          "lengthKm": 26.16,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.103255656214034,
+            "roundaboutSegs": 103,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Mszczonów Rynek",
+          "headsign": "Mszczonów Rynek",
+          "variants": 1,
+          "tripCount": 30,
+          "stops": 27,
+          "lengthKm": 21.56,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.473609178110526,
+            "roundaboutSegs": 88,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Suntago Park Wodny",
+          "headsign": "Suntago Park Wodny",
+          "variants": 1,
+          "tripCount": 8,
+          "stops": 28,
+          "lengthKm": 26.22,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.6759358639242645,
+            "roundaboutSegs": 132,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "83",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Mszczonów Rynek - EXPRESS CHEŁMOŃSKI",
+          "headsign": "Mszczonów Rynek - EXPRESS CHEŁMOŃSKI",
+          "variants": 1,
+          "tripCount": 27,
+          "stops": 31,
+          "lengthKm": 44.2,
+          "stats": {
+            "observations": 31,
+            "matched": 31,
+            "noCandidates": 0,
+            "viterbiBreaks": 1,
+            "bridged": 0,
+            "rawStretchCount": 1,
+            "rawMeters": 141,
+            "meanError": 6.186234873223266,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Warszawa P+R Al. Krakowska - EXPRESS CHEŁMOŃSKI",
+          "headsign": "Warszawa P+R Al. Krakowska - EXPRESS CHEŁMOŃSKI",
+          "variants": 1,
+          "tripCount": 25,
+          "stops": 21,
+          "lengthKm": 41.21,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 9.676717502335823,
+            "roundaboutSegs": 54,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "92",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Granica - Kampinoski Park Narodowy",
+          "headsign": "Granica - Kampinoski Park Narodowy",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 6,
+          "lengthKm": 30.45,
+          "stats": {
+            "observations": 6,
+            "matched": 6,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.191448042551262,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Grodzisk Maz. Traugutta Dw. PKP",
+          "headsign": "Grodzisk Maz. Traugutta Dw. PKP",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 6,
+          "lengthKm": 30.46,
+          "stats": {
+            "observations": 6,
+            "matched": 6,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 7.909600120043512,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "93",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Grodzisk Maz. Traugutta Dw. PKP",
+          "headsign": "Grodzisk Maz. Traugutta Dw. PKP",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 8,
+          "lengthKm": 24.39,
+          "stats": {
+            "observations": 8,
+            "matched": 8,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.075892846284459,
+            "roundaboutSegs": 17,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Roztoka - Kampinoski Park Narodowy",
+          "headsign": "Roztoka - Kampinoski Park Narodowy",
+          "variants": 1,
+          "tripCount": 3,
+          "stops": 8,
+          "lengthKm": 24.37,
+          "stats": {
+            "observations": 8,
+            "matched": 8,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 8.2056660010298,
+            "roundaboutSegs": 19,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "94",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Płochocin PKP / Kolejowa",
+          "headsign": "Płochocin PKP / Kolejowa",
+          "variants": 1,
+          "tripCount": 16,
+          "stops": 28,
+          "lengthKm": 28.16,
+          "stats": {
+            "observations": 28,
+            "matched": 28,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.1591401759272015,
+            "roundaboutSegs": 44,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "95",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Truskaw Skibińskiego",
+          "headsign": "Truskaw Skibińskiego",
+          "variants": 1,
+          "tripCount": 19,
+          "stops": 20,
+          "lengthKm": 12.36,
+          "stats": {
+            "observations": 20,
+            "matched": 20,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.7971859091689977,
+            "roundaboutSegs": 66,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Warszawa Stare Bemowo",
+          "headsign": "Warszawa Stare Bemowo",
+          "variants": 1,
+          "tripCount": 19,
+          "stops": 18,
+          "lengthKm": 12.26,
+          "stats": {
+            "observations": 18,
+            "matched": 18,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.668919425285348,
+            "roundaboutSegs": 22,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "96",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Warszawa Stare Bemowo",
+          "headsign": "Warszawa Stare Bemowo",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 45,
+          "lengthKm": 33.12,
+          "stats": {
+            "observations": 45,
+            "matched": 45,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.482883976990206,
+            "roundaboutSegs": 110,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Zaborów Szkoła",
+          "headsign": "Zaborów Szkoła",
+          "variants": 1,
+          "tripCount": 34,
+          "stops": 47,
+          "lengthKm": 32.98,
+          "stats": {
+            "observations": 47,
+            "matched": 47,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.570183630167508,
+            "roundaboutSegs": 102,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "97",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Dziekanów Leśny",
+          "headsign": "Dziekanów Leśny",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 60,
+          "lengthKm": 43.39,
+          "stats": {
+            "observations": 60,
+            "matched": 60,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.704565839759697,
+            "roundaboutSegs": 135,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Izabelin Sienkiewicza",
+          "headsign": "Izabelin Sienkiewicza",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 26,
+          "lengthKm": 17.85,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.321627055189887,
+            "roundaboutSegs": 57,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Malichy Sadowa",
+          "headsign": "Malichy Sadowa",
+          "variants": 1,
+          "tripCount": 20,
+          "stops": 63,
+          "lengthKm": 43.48,
+          "stats": {
+            "observations": 63,
+            "matched": 63,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.312091300058422,
+            "roundaboutSegs": 114,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Ożarów Maz. Starostwo",
+          "headsign": "Ożarów Maz. Starostwo",
+          "variants": 1,
+          "tripCount": 12,
+          "stops": 27,
+          "lengthKm": 18.33,
+          "stats": {
+            "observations": 27,
+            "matched": 27,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 4.65359317950684,
+            "roundaboutSegs": 41,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "98",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Babice Nowe Centrum Handlowe",
+          "headsign": "Babice Nowe Centrum Handlowe",
+          "variants": 1,
+          "tripCount": 107,
+          "stops": 16,
+          "lengthKm": 9.92,
+          "stats": {
+            "observations": 16,
+            "matched": 16,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.9494802488710397,
+            "roundaboutSegs": 1,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "Sieraków",
+          "headsign": "Sieraków",
+          "variants": 1,
+          "tripCount": 107,
+          "stops": 14,
+          "lengthKm": 10.11,
+          "stats": {
+            "observations": 14,
+            "matched": 14,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 3.055925230716836,
+            "roundaboutSegs": 34,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "C1",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Szczęsne Cmentarz",
+          "headsign": "Szczęsne Cmentarz",
+          "variants": 1,
+          "tripCount": 27,
+          "stops": 26,
+          "lengthKm": 11.1,
+          "stats": {
+            "observations": 26,
+            "matched": 26,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 5.405594719302314,
+            "roundaboutSegs": 54,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "Z67",
+      "mode": "bus",
+      "color": "#0059a9",
+      "dirs": [
+        {
+          "dir": "Brwinów Zespół Szkół Ogólnokształcących",
+          "headsign": "Brwinów Zespół Szkół Ogólnokształcących",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 23,
+          "lengthKm": 14.47,
+          "stats": {
+            "observations": 23,
+            "matched": 23,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.518213041389472,
+            "roundaboutSegs": 67,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "PKP Pruszków",
+          "headsign": "PKP Pruszków",
+          "variants": 1,
+          "tripCount": 38,
+          "stops": 21,
+          "lengthKm": 14.04,
+          "stats": {
+            "observations": 21,
+            "matched": 21,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 6.83811499308766,
+            "roundaboutSegs": 26,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    },
+    {
+      "line": "WKD",
+      "mode": "tram",
+      "color": "#A518A3",
+      "dirs": [
+        {
+          "dir": "0",
+          "headsign": "Warszawa Śródmieście WKD",
+          "variants": 15,
+          "tripCount": 230,
+          "stops": 26,
+          "lengthKm": 32.45,
+          "stats": {
+            "observations": 615,
+            "matched": 615,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9824143754921965,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        },
+        {
+          "dir": "1",
+          "headsign": "Grodzisk Mazowiecki Radońska",
+          "variants": 14,
+          "tripCount": 234,
+          "stops": 26,
+          "lengthKm": 32.43,
+          "stats": {
+            "observations": 617,
+            "matched": 617,
+            "noCandidates": 0,
+            "viterbiBreaks": 0,
+            "bridged": 0,
+            "rawStretchCount": 0,
+            "rawMeters": 0,
+            "meanError": 0.9715941539392815,
+            "roundaboutSegs": 0,
+            "extStart": 0,
+            "extEnd": 0
+          }
+        }
+      ]
+    }
+  ]
+}
